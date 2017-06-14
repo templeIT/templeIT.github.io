@@ -9,30 +9,29 @@
 .container {
 	margin:0 auto;
 	overflow:hidden;
-	width:600px;
-	height:700px;
+	width:800px;
+	height:980px;
 }
 
 /* CONTENT SLIDER */
 #content-slider {
-	width:600px;
-	height:700px;
+	width:800px;
+	height:980px;
 	margin:10px auto 0;
 }
 /* SLIDER */
 #slider {
 	background:#000;
-	border:5px solid #eaeaea;
-	box-shadow:1px 1px 5px rgba(0,0,0,0.7);
-	width: 600px;
-	height:700px;
+	
+	width: 800px;
+	height:980px;
 	margin:40px auto 0;
 	overflow:visible;
 	position:relative;
 }
 #mask {
 	overflow:hidden;
-	height:1200px;
+	height:980px;
 }
 #slider ul {
 	margin:0;
@@ -40,8 +39,8 @@
 	position:relative;
 }
 #slider li {
-	width:600px;
-	height:700px;
+	width:800px;
+	height:980px;
 	position:absolute;
 	top:-325px;
 	list-style:none;
@@ -70,10 +69,9 @@
 
 #slider .tooltip {
 	background:rgba(0,0,0,0.7);
-	width:300px;
-	height:60px;
+	
 	position:relative;
-	bottom:75px;
+	
 	left:-320px;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;  
@@ -82,8 +80,7 @@
 	color:#fff;
 	font-size:24px;
 	font-weight:300;
-	line-height:60px;
-	padding:0 0 0 20px;
+	padding:0 0 0 0px;
 }
 #slider li#first:hover .tooltip, 
 #slider li#second:hover .tooltip, 
@@ -101,9 +98,8 @@
 /* PROGRESS BAR */
 .progress-bar { 
 	position:relative;
-	top:-5px;
-	width:680px; 
-	height:5px;
+	top:width:680px; 
+	
 	background:#000;
 	-moz-animation:fullexpand 25s ease-out infinite;
 	-webkit-animation:fullexpand 25s ease-out infinite;
