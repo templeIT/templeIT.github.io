@@ -66,6 +66,10 @@
 	-moz-animation:cyclefive 300s linear infinite;
 	-webkit-animation:cyclefive 300s linear infinite;		
 }
+#slider li.sixthanimation {
+	-moz-animation:cyclefive 300s linear infinite;
+	-webkit-animation:cyclefive 300s linear infinite;		
+}
 
 #slider .tooltip {
 	background:rgba(0,0,0,0.7);
